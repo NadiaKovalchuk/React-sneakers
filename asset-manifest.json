@@ -1,14 +1,18 @@
 {
   "files": {
     "main.css": "/React-sneakers/static/css/main.4e8fd540.css",
-    "main.js": "/React-sneakers/static/js/main.e32f5b1b.js",
+    "main.js": "/React-sneakers/static/js/main.4eacaa59.js",
+    "static/media/Nike-Air-Max-270.png": "/React-sneakers/static/media/Nike-Air-Max-270.5c7ee0cef7377827d676.png",
+    "static/media/Puma-X-Aka-Boku-Future-Rider.png": "/React-sneakers/static/media/Puma-X-Aka-Boku-Future-Rider.31d7eee85cc5c80b16ee.png",
+    "static/media/Nike-Blazer-Mid-Suede.png": "/React-sneakers/static/media/Nike-Blazer-Mid-Suede.1b66c1b07bf0b99c7231.png",
+    "static/media/Nike-Blazer-Mid-Suede-White.png": "/React-sneakers/static/media/Nike-Blazer-Mid-Suede-White.28dec3d4761fbb32ae0f.png",
     "static/media/logo.svg": "/React-sneakers/static/media/logo.4664185eea0d1bbcc1664ef4d62b459e.svg",
     "index.html": "/React-sneakers/index.html",
     "main.4e8fd540.css.map": "/React-sneakers/static/css/main.4e8fd540.css.map",
-    "main.e32f5b1b.js.map": "/React-sneakers/static/js/main.e32f5b1b.js.map"
+    "main.4eacaa59.js.map": "/React-sneakers/static/js/main.4eacaa59.js.map"
   },
   "entrypoints": [
     "static/css/main.4e8fd540.css",
-    "static/js/main.e32f5b1b.js"
+    "static/js/main.4eacaa59.js"
   ]
 }
