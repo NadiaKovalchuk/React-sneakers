@@ -1,4 +1,8 @@
 import logo from './img/logo.svg'
+import nikeBlazer from './img/sneakers/Nike-Blazer-Mid-Suede-White.png'
+import nikeBlazerGreen from './img/sneakers/Nike-Blazer-Mid-Suede.png'
+import nikeAirMax from './img/sneakers/Nike-Air-Max-270.png'
+import pumaX from './img/sneakers/Puma-X-Aka-Boku-Future-Rider.png'
 
 function App() {
   return (
@@ -43,7 +47,7 @@ function App() {
         <div className="sneakers d-flex justify-around">
           <div className="card">
             <div className="cardImage d-flex justify-center">
-              <img width={133} height={112} src="/img/sneakers/Nike-Blazer-Mid-Suede.png" alt="Nike-Blazer-Mid-Suede" />
+              <img width={133} height={112} src={nikeBlazer} alt="Nike-Blazer-Mid-Suede" />
             </div>
             <h4>Nike Blazer Mid Suede</h4>
             <h5>Man shoes</h5>
@@ -62,7 +66,7 @@ function App() {
 
           <div className="card">
             <div className="cardImage d-flex justify-center">
-              <img width={133} height={112} src="/img/sneakers/Nike-Air-Max-270.png" alt="Nike-Blazer-Mid-Suede" />
+              <img width={133} height={112} src={nikeAirMax} alt="Nike-Blazer-Mid-Suede" />
             </div>
             <h4>Nike Air Max 270</h4>
             <h5>Man shoes</h5>
@@ -81,7 +85,7 @@ function App() {
 
           <div className="card">
             <div className="cardImage d-flex justify-center">
-              <img width={133} height={112} src="/img/sneakers/Nike-Blazer-Mid-Suede-White.png" alt="Nike-Blazer-Mid-Suede" />
+              <img width={133} height={112} src={nikeBlazerGreen} alt="Nike-Blazer-Mid-Suede" />
             </div>
             <h4>Nike Blazer Mid Suede</h4>
             <h5>Man shoes</h5>
@@ -100,7 +104,7 @@ function App() {
 
           <div className="card">
             <div className="cardImage d-flex justify-center">
-              <img width={133} height={112} src="/img/sneakers/Puma-X-Aka-Boku-Future-Rider.png" alt="Nike-Blazer-Mid-Suede" />
+              <img width={133} height={112} src={pumaX} alt="Nike-Blazer-Mid-Suede" />
             </div>
             <h4>Puma Boku Future Rider</h4>
             <h5>Man shoes</h5>
