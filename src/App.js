@@ -1,3 +1,5 @@
+import logo from './img/logo.svg'
+
 function App() {
   return (
     <div className="wrapper clear">
@@ -6,7 +8,7 @@ function App() {
           <img 
             width={40}
             height={40}
-            src="/img/logo.svg"
+            src={logo}
             alt="logo"
           />
           <div className="headerInfo">
