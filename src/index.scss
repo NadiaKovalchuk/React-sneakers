@@ -22,7 +22,7 @@ margin: 85px auto;
 }
 
 header {
-  border-bottom: 1px solid #EAEAEA;
+  border-bottom: 1px solid #F8F8F8;
   padding: 40px;
   .headerLeft {
     img {
@@ -37,7 +37,7 @@ header {
       height: 20px;
 
       span {
-        font-size: 16px;
+        font-size: 14px;
         margin-left: 8px;
       }
     }
@@ -48,6 +48,66 @@ header {
       .headerRightIconLike {
         margin-right: 20px;
       }
+    }
+  }
+}
+
+.card {
+  border: 1px solid #F8F8F8;
+  padding: 20px;
+  padding-bottom: 30px;
+  width: 210px;
+  border-radius: 6px;
+
+  h4 {
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+  }
+
+  h5 {
+    font-weight: 400;
+    color:#787878;
+    font-size: 12px;
+    padding-bottom: 2px;
+  }
+
+  .cardButton {
+    align-items: flex-end;
+
+    p {
+      font-weight: 400;
+      color:#808080;
+      text-transform: uppercase;
+      opacity: 0.5;
+      font-size: 12px;
+      padding-bottom: 2px;
+      margin-bottom: 6px;
+    }
+
+    b {
+      font-size: 12px;
+      font-weight: 500;
+    }
+  }
+
+}
+
+.button {
+  width: 32px;
+  height: 32px;
+  box-sizing: border-box;
+  background:	#181818;
+  border: 1px solid 	#181818;
+  border-radius: 6px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  svg {
+    path {
+      fill: #FFFFFF;
     }
   }
 }

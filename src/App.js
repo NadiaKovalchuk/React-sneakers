@@ -11,13 +11,13 @@ function App() {
           />
           <div className="headerInfo">
             <h3 className="text-uppercase">React sneakers</h3>
-            <p>Best sneakers shop</p>
+            <p className="opacity-5">Best sneakers shop</p>
           </div>
         </div>
 
         <ul className="headerRight d-flex align-center">
           <li className="headerRightPrice mr-20 d-flex align-center">
-          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" className="d -flex">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" className="d-flex">
             <path d="M7.54548 18.1818C7.99735 18.1818 8.36366 17.8155 8.36366 17.3636C8.36366 16.9118 7.99735 16.5455 7.54548 16.5455C7.09361 16.5455 6.72729 16.9118 6.72729 17.3636C6.72729 17.8155 7.09361 18.1818 7.54548 18.1818Z" stroke="#9B9B9B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             <path d="M16.5455 18.1818C16.9973 18.1818 17.3637 17.8155 17.3637 17.3636C17.3637 16.9118 16.9973 16.5455 16.5455 16.5455C16.0936 16.5455 15.7273 16.9118 15.7273 17.3636C15.7273 17.8155 16.0936 18.1818 16.5455 18.1818Z" stroke="#9B9B9B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             <path d="M1 1H4.27273L6.46545 11.9555C6.54027 12.3321 6.7452 12.6705 7.04436 12.9113C7.34351 13.1522 7.71784 13.2801 8.10182 13.2727H16.0545C16.4385 13.2801 16.8129 13.1522 17.112 12.9113C17.4112 12.6705 17.6161 12.3321 17.6909 11.9555L19 5.09091H5.09091" stroke="#9B9B9B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -37,8 +37,84 @@ function App() {
       </header>
 
       <div className="content p-40">
-        <h1>All sneakers</h1>
-        ...
+        <h2 className="mb-40">All sneakers</h2>
+        <div className="sneakers d-flex justify-around">
+          <div className="card">
+            <div className="cardImage d-flex justify-center">
+              <img width={133} height={112} src="/img/sneakers/Nike-Blazer-Mid-Suede.png" alt="Nike-Blazer-Mid-Suede" />
+            </div>
+            <h4>Nike Blazer Mid Suede</h4>
+            <h5>Man shoes</h5>
+            <div className="cardButton d-flex justify-between">
+              <div>
+                <p>Price:</p>
+                <b>119.99 $</b>
+              </div>
+              <button className="button d-flex">
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10.6653 5.13122H7.20214V1.66821C7.20214 0.332846 5.13114 0.332846 5.13114 1.66821V5.13122H1.668C0.332935 5.13122 0.332935 7.20215 1.668 7.20215H5.13114V10.6652C5.13114 12.0005 7.20214 12.0005 7.20214 10.6652V7.20215H10.6653C12.0005 7.20215 12.0005 5.13122 10.6653 5.13122Z" fill="#D3D3D3"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="cardImage d-flex justify-center">
+              <img width={133} height={112} src="/img/sneakers/Nike-Air-Max-270.png" alt="Nike-Blazer-Mid-Suede" />
+            </div>
+            <h4>Nike Air Max 270</h4>
+            <h5>Man shoes</h5>
+            <div className="cardButton d-flex justify-between">
+              <div>
+                <p>Price:</p>
+                <b>199.99 $</b>
+              </div>
+              <button className="button d-flex">
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10.6653 5.13122H7.20214V1.66821C7.20214 0.332846 5.13114 0.332846 5.13114 1.66821V5.13122H1.668C0.332935 5.13122 0.332935 7.20215 1.668 7.20215H5.13114V10.6652C5.13114 12.0005 7.20214 12.0005 7.20214 10.6652V7.20215H10.6653C12.0005 7.20215 12.0005 5.13122 10.6653 5.13122Z" fill="#D3D3D3"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="cardImage d-flex justify-center">
+              <img width={133} height={112} src="/img/sneakers/Nike-Blazer-Mid-Suede-White.png" alt="Nike-Blazer-Mid-Suede" />
+            </div>
+            <h4>Nike Blazer Mid Suede</h4>
+            <h5>Man shoes</h5>
+            <div className="cardButton d-flex justify-between">
+              <div>
+                <p>Price:</p>
+                <b>109.99 $</b>
+              </div>
+              <button className="button d-flex">
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10.6653 5.13122H7.20214V1.66821C7.20214 0.332846 5.13114 0.332846 5.13114 1.66821V5.13122H1.668C0.332935 5.13122 0.332935 7.20215 1.668 7.20215H5.13114V10.6652C5.13114 12.0005 7.20214 12.0005 7.20214 10.6652V7.20215H10.6653C12.0005 7.20215 12.0005 5.13122 10.6653 5.13122Z" fill="#D3D3D3"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="cardImage d-flex justify-center">
+              <img width={133} height={112} src="/img/sneakers/Puma-X-Aka-Boku-Future-Rider.png" alt="Nike-Blazer-Mid-Suede" />
+            </div>
+            <h4>Puma Boku Future Rider</h4>
+            <h5>Man shoes</h5>
+            <div className="cardButton d-flex justify-between">
+              <div>
+                <p>Price:</p>
+                <b>119.99 $</b>
+              </div>
+              <button className="button d-flex">
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10.6653 5.13122H7.20214V1.66821C7.20214 0.332846 5.13114 0.332846 5.13114 1.66821V5.13122H1.668C0.332935 5.13122 0.332935 7.20215 1.668 7.20215H5.13114V10.6652C5.13114 12.0005 7.20214 12.0005 7.20214 10.6652V7.20215H10.6653C12.0005 7.20215 12.0005 5.13122 10.6653 5.13122Z" fill="#D3D3D3"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
